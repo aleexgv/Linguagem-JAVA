@@ -1,4 +1,11 @@
 /* EXEMPLO 1 */
+
+/*
+PARAMETRO --> TIPO DE ARGUMENTO QUE UMA FUNÇÃO/METODO RECEBE
+
+ARGUMENTO --> VALOR DO DADO QUE SERÁ PASSADO PARA A FUNÇÃO/METODO
+*/
+
 package exercicios;
 
 import java.util.*;
@@ -60,5 +67,9 @@ public class Metodos {
         areaRetangulo = base * altura;
         
         return areaRetangulo;
+        
+        // OU
+        
+        return base * altura;
     }
 }
